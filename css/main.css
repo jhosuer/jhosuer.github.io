@@ -1,0 +1,341 @@
+body, html {
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #FCFCFC;
+	margin: 0px;
+    padding: 0px;
+
+}
+a {
+	color: #FCFCFC;
+	text-decoration: none !important;
+}
+a:hover {
+	color: #8e7115;
+}
+
+li {
+	list-style-type: none;
+}
+header {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0);
+	color: #FCFCFC;
+	z-index: 10;
+	position: relative;
+}
+.logo {
+	height: 80%;
+	padding: 0.5% 2%;
+	text-align: right;
+}
+.logo img{
+	width: 80px;
+	height: 80px;
+}
+
+.topMenu {
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.topMenu .offright {
+	margin-left: 400px;
+}
+.bottomMenu {
+	margin-top: 30px;
+	/*position: absolute;*/
+}
+.bottomMenu ul{
+	width: 100%;
+	padding-left: 20px;
+}
+
+
+.bottomMenu ul li{
+	display: inline;
+	margin-left: 50px;
+
+}
+
+.bottomNav, .bottomNavTwo, 
+.bottomNavThree, .bottomNavFour, .bottomNavFive, .bottomNavSix {
+	display: none;
+	background-color: black;
+	margin-top: -5px;
+	z-index: 2 !important;
+	padding-bottom: 15px;
+}
+.bottomNavSix {
+	padding-bottom: 50px;
+}
+.bottomNavFive input[type='text'] {
+	width: 600px;
+	height: 40px;
+	border-radius: 50px;
+	border: none;
+	margin-top: 30px;
+	padding-left: 10px;
+}
+.bottomNavSix input[type='text'] {
+	width: 900px;
+	height: 40px;
+	border-radius: 50px;
+	border: none;
+	padding-left: 10px;
+	margin-top: 30px;
+}
+.bottomNavFive select {
+	border: none;
+	border-radius: 50px;
+	height: 40px;
+	width: 80px;
+	outline: none;
+}
+.bottomNavFive select option:hover {
+	background-color: #8E7115 !important;
+}
+.bottomNavFive span {
+	margin: 0px 5px 0px 20px;
+}
+.bottomNavFive button, .bottomNavSix button {
+	width: 200px;
+	height: 40px;
+	border: none;
+	border-radius: 50px;
+	margin-left: 30px;
+	background-color: #8E7115;
+	color: #FCFCFC;
+}
+.bottomNavFive .bottom {
+	margin-top: 20px;
+}
+
+.bottomNavFive input[type='radio'] {
+	margin-left: 10px;
+}
+.bottomNav li img, .bottomNavTwo li img, 
+.bottomNavThree li img, .bottomNavFour li img {
+	margin-top: 30px;
+	width: 70%;
+	transition: all 1s ease;
+}
+.bottomNavTwo li img, .bottomNavThree li img, .bottomNavFour li img {
+	width: 100%;
+}
+.bottomNav li img:hover, .bottomNavTwo li img:hover, 
+.bottomNavThree li img:hover, .bottomNavFour li img:hover {
+	border: 1px solid #FCFCFC;
+}
+#innerLi li:first-child {
+	margin-top: 30px;
+}
+#innerLi li{
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+#innerLi span {
+	margin-left: 50px;
+}
+#innerLi #noBorder {
+	border: none !important;
+}
+
+/*carousel start*/
+	.slider {
+		width: 100%;
+		padding: 0;
+		text-align: center;
+		z-index: 0 !important;
+	}
+	.slider .row {
+		padding: 0;
+		z-index: 0 !important;
+	}
+
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: 0 !important;
+  }
+
+  .carousel-caption {
+  	margin-bottom: 120px;
+  }
+
+  .carousel-caption button {
+  	background-color: #E63946;
+  	width: 200px;
+  	height: 50px;
+  	border: none;
+  	border-radius: 10px;
+  	color: white;
+  }
+
+  .postSlider .top {
+  	background: url('../img/email.jpg');
+  	background-size: cover;
+  	height: 332px;
+  	text-align: center;
+  	color: #ffffff;
+  	transition: opacity 1s ease;
+  }
+   .postSlider .top:hover {
+  	opacity: 0.6;
+  }
+
+  .postSlider .top h5 {
+  	margin-top: 20px;
+  }
+  .postSlider .top h1 {
+  	font-size: 50px;
+  	font-weight: bold;
+
+  }
+
+  .postSlider .top input[type='text'] {
+  	width: 500px;
+  	height: 40px;
+  	border-radius: 10px;
+  	border: none;
+  }
+  .postSlider .top input[type='number'] {
+  	width: 300px;
+  	height: 40px;
+  	border-radius: 10px;
+  	border: none;
+  }
+  .postSlider .top button {
+  	width: 200px;
+  	height: 40px;
+  	border-radius: 10px;
+  	border: none;
+  	background-color: #9E8124;
+  	color: #ffffff;
+  }
+  .postSlider .bottom {
+  	background: url('../img/common.jpg');
+  	background-size: cover;
+  	height: 332px;
+  	text-align: center;
+  	transition: opacity 1s ease;
+  } 
+  .postSlider .bottom:hover {
+  	opacity: 0.6;
+  }
+   .postSlider .bottom h1 {
+   		font-size: 50px;
+   		margin-top: 100px;
+   		font-weight: bold;
+   		color: #ffffff;
+   }
+   .postSlider .bottom h5 {
+   		color: #ffffff;
+   		margin-bottom: 15px;
+   }
+ 	.postSlider .bottom button {
+		width: 200px;
+		height: 40px;
+		border-radius: 10px;
+		border: none;
+		background-color: #9E8124;
+		color: #ffffff;
+  }
+  .afterPostSlider .top {
+  	background: url('../img/nutrition.jpg');
+  	background-size: cover;
+  	height: 332px;
+  	text-align: center;
+  	color: white;
+  	transition: all 1s ease;
+  }
+
+  .afterPostSlider .top:hover {
+  	transform: scale(2);
+  }
+  .afterPostSlider .top h5 {
+  	margin-top: 100px;
+  }
+  .afterPostSlider .top h1 {
+   		font-size: 50px;
+   		font-weight: bold;
+  }
+   .afterPostSlider .top button {
+  	width: 200px;
+  	height: 40px;
+  	border-radius: 10px;
+  	border: none;
+  	background-color: #9E8124;
+  	color: #ffffff;
+  }
+  .afterPostSlider .bottom {
+  	background: url('../img/advert.jpg');
+  	background-size: cover;
+  	height: 332px;
+  	text-align: center;
+  	color: white;
+  }
+
+  .afterPostSlider .bottom h5:first-child {
+  	margin-top: 100px;
+  }
+
+   .afterPostSlider .bottom h1 {
+   		font-size: 50px;
+   		font-weight: bold;
+  }
+
+
+   .afterPostSlider .bottom button {
+  	width: 200px;
+  	height: 40px;
+  	border-radius: 10px;
+  	border: none;
+  	background-color: #9E8124;
+  	color: #ffffff;
+  }
+  footer .top {
+  	background-color: #9E8124;
+  	color: white;
+  	padding: 50px 0px;
+  }
+  footer .bottom {
+  	background-color: #564409;
+  	color: white;
+  	padding: 15px 0px 10px;
+  }
+  footer .bottom span:first-child {
+  	margin-left: 50px;
+  }
+   footer .bottom .social{
+   	margin-top: 20px;
+   }
+  footer .bottom .social img{
+  	display: inline;
+  	width: 64px;
+  	
+  }
+
+  footer .bottom .download a{
+  	border: 1px solid #ffffff;
+  	margin-right: 5px;
+  	border-radius: 10px;
+  	padding: 5px 2px;
+  	
+  }
+
+  footer .bottom .download {
+  	text-align: right;
+  	margin-top: 20px;
+  	
+  }
+
+  .footerMenu {
+  	margin-top: 40px;
+  }
+
+  .footerMenu li {
+  	display: inline;
+  }
