@@ -253,7 +253,7 @@ header {
   }
 
   .afterPostSlider .top:hover {
-  	transform: scale(2);
+  	transform: scale(1.1);
   }
   .afterPostSlider .top h5 {
   	margin-top: 100px;
