@@ -249,11 +249,11 @@ header {
   	height: 332px;
   	text-align: center;
   	color: white;
-  	transition: all 1s ease;
+  	transition: opacity 1s ease;
   }
 
   .afterPostSlider .top:hover {
-  	transform: scale(1.1);
+  	opacity: 0.8;
   }
   .afterPostSlider .top h5 {
   	margin-top: 100px;
